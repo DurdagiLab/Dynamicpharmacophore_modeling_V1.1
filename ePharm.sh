@@ -17,7 +17,7 @@ until [ $x == $((frame_count+cpu)) ];do
 		data=$(echo "$line" | awk '{for (i=2; i<=NF; i++) printf $i " "}')
 		GRID_DATA="$data"
 		echo "$GRID_DATA"
-		$SCHRODINGER18/utilities/epharmacophores -rec_file structure_$i-out_recep.maegz -lig_file structure_$i-out_lig.maegz "-site_center= $GRID_DATA" -in_place -j Hypothesis_$i -fd "" -f 7 -site_dist 2.0 -pair_dist 4.0 -xvol -scale 0.5 -buff 2.0 -limit 5.0 -HOST "localhost:15"
+		$SCHRODINGER/utilities/epharmacophores -rec_file structure_$i-out_recep.maegz -lig_file structure_$i-out_lig.maegz "-site_center= $GRID_DATA" -in_place -j Hypothesis_$i -fd "" -f 7 -site_dist 2.0 -pair_dist 4.0 -xvol -scale 0.5 -buff 2.0 -limit 5.0 -HOST "localhost:15"
 	done
 	z=$((x+1))
 	x=$((x+cpu))
