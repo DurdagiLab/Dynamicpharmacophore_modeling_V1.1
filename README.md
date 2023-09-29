@@ -11,7 +11,7 @@ Get your Backbone average RMSD datas from VMD and save as trjrmsd.dat
 
 #Requirment libraries for analyses:
 
-#Check if all these libraries are installed
+***Check if all these libraries are installed***
 
 # matplotlib.pyplot
 # matplotlib.backends.backend_pdf
