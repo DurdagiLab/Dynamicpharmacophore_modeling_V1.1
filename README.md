@@ -15,11 +15,19 @@ Get your Backbone average RMSD datas from VMD and save as trjrmsd.dat
 ***Check if all these libraries are installed***
 
 **matplotlib.pyplot**
+
 **matplotlib.backends.backend_pdf**
+
 **pandas**
+
 **seaborn**
+
 **os**
+
 **glob**
+
 **weasyprint**
+
 **numpy**
+
 **pypdf**
