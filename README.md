@@ -6,7 +6,8 @@
 #Same as previous script but more optimized and also analyze your obtained hypotheses, find the common hypotheses during your trajectories and between them find the frames with lowest backbone average RMSD value.
 
 #Requirments:
-#Get your Backbone average RMSD datas from VMD and save as trjrmsd.dat
+
+Get your Backbone average RMSD datas from VMD and save as trjrmsd.dat
 
 #Requirment libraries for analyses:
 
