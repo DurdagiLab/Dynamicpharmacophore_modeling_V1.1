@@ -15,7 +15,7 @@ mv *.maegz TRJ/
 cp ePharm.sh grid_Gen.sh quotes.sh split.sh art.py TRJ/
 cd TRJ/
 ./quotes.sh
-nohup ./grid_Gen.sh
+./grid_Gen.sh
 ./quotes.sh
 ./split.sh
 ./quotes.sh
