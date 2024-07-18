@@ -32,5 +32,6 @@ Get your Backbone average RMSD datas from VMD and save as trjrmsd.dat
 
 **pypdf**
 
-**Citation***
-** Please cite our publication  https://doi.org/10.1002/cmdc.202300644**
+## Citation
+
+**Please cite our publication  https://doi.org/10.1002/cmdc.202300644**
